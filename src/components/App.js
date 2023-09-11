@@ -1,7 +1,9 @@
+import '../styles/Reset.scss';
 import '../styles/App.scss';
+import Header from './Header';
 
 const App = () => {
-  return <h1>Hola mundo</h1>;
+  return <Header />;
 };
 
 export default App;

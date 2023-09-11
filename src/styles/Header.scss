@@ -1,0 +1,36 @@
+.header {
+    height: 20vh;   
+}
+.hero_image {
+    background-image: url(../images/hero.png);
+    height: 20vh;
+    width: 320px;
+    background-size: cover;
+    position: absolute; 
+    z-index: -1; 
+}
+.header_div {
+    position: relative; 
+    z-index: 2;
+    top: 10vh; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.list {
+    display: flex;
+}
+li{
+padding-right: 10px;
+
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+
+
