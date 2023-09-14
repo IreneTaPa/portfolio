@@ -12,25 +12,49 @@
 .header_div {
     position: relative; 
     z-index: 2;
-    top: 10vh; 
+    top: 3vh; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 .list {
     display: flex;
+    padding-top: 5px;
 }
-li{
-padding-right: 10px;
-
+.link {
+  text-decoration: none;
+  padding-right: 10px;
+  font-family: 'Hahmlet', serif;
+  font-size: 15px;
 }
-
-li:hover {
+.link:hover {
     text-decoration: underline;
 }
+.div_profession {
+    position: relative;
+   right: 60px;
+   display: flex;
+   align-items: center;
+}
+.profession {
+    margin-top: 5px;
+    background-color: #b18b6b9d;
+    color: white; 
+    height: 20px;
+    border-radius: 10px;
+    padding: 4px 10px;
+  font-family: 'Hahmlet', serif;
+  font-size: 15px;
+}
 
+.name {
+  font-family: 'Hahmlet', serif;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
 
 
 

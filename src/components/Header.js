@@ -8,21 +8,27 @@ const Header = () => {
       <div className="hero_image"></div>
       <div className="header_div">
         <p className="name">Irene Talavero</p>
+        <p className="profession">Front-End Developer</p>
         <nav>
           <ul className="list">
             <li>
-              <Link to="/">Portfolio</Link>
+              <Link className="link" to="/">
+                Portfolio
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className="link" to="/about">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/cv">CV</Link>
+              <Link className="link" to="/cv">
+                CV
+              </Link>
             </li>
           </ul>
         </nav>
       </div>
-      <div className="div_line"></div>
     </div>
   );
 };
