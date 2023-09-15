@@ -1,11 +1,12 @@
-.body {
-    background-color: #dbcec4af; 
+@import './Variables.scss'; 
+.body_porfolio {
+    background-color:$color-1; 
     height: 75vh;
 }
 
 .portfolio_title {
     text-align: center;
     padding-top: 20px;
-    color: black;
-    font-family: 'Hahmlet', serif;
+    color: $color-2;
+    font-family: $font-1;
 }

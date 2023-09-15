@@ -1,3 +1,4 @@
+@import './Variables.scss';
 .footer {
     background-color: #dad4c8af; 
     height: 10vh;
@@ -8,14 +9,14 @@
    
 }
 .contact {
-color: white;
-font-family: 'Hahmlet', serif;
+color: $color-3;
+font-family: $font-1;
 font-size: 15px;
 font-weight: bold;
 }
 .copy {
-    color: white; 
+    color: $color-3; 
     padding-top: 10px;
-    font-family: 'Hahmlet', serif;
+    font-family: $font-1;
     font-size: 12px;
 }

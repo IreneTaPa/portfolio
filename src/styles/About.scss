@@ -1,3 +1,10 @@
+@import './Variables.scss';
+.body_about {
+   background-color: $color-1;
+   height: 75vh;
+}
+
 h1 {
-   color: red;  
+   color: $color-2;  
+   
 }

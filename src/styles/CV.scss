@@ -1,3 +1,10 @@
+@import './Variables.scss';
+
+.body_cv {
+   background-color: $color-1; 
+height: 75vh;
+}
 .cv_title {
-    background-color: green;
+    color: $color-2;
+    
 }

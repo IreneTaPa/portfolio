@@ -1,5 +1,6 @@
 import '../styles/Reset.scss';
 import '../styles/App.scss';
+import '../styles/Variables.scss';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Portfolio from './Portfolio';
