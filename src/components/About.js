@@ -1,6 +1,7 @@
 import '../styles/About.scss';
 import '../styles/Variables.scss';
 import img from '../images/photo.jpeg';
+import document from '../document/IreneTalaveroPalominoResume.pdf';
 import TechnologiesDetail from './TechnologiesDetail';
 const About = () => {
   return (
@@ -20,6 +21,9 @@ const About = () => {
           fomenta la diversidad y la inclusión en el campo de la tecnología.
         </div>
       </div>
+      <a className="download_button" href={document} download>
+        <p>Download CV</p>
+      </a>
       <h1>TECHNOLOGIES</h1>
       <ul className="technologies_list">{<TechnologiesDetail />}</ul>
     </div>

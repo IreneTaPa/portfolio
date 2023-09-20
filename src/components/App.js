@@ -6,7 +6,7 @@ import Header from './Header';
 import Portfolio from './Portfolio';
 import About from './About';
 import Footer from './Footer';
-import CV from './CV';
+import Contact from './Contact';
 const App = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
-        <Route path="/cv" element={<CV />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

@@ -3,7 +3,6 @@ import '../styles/Variables.scss';
 const Footer = () => {
   return (
     <div className="footer">
-      <p className="contact">contacto: italavero@hotmail.com</p>
       <small className="copy">Irene Talavero ©</small>
     </div>
   );
