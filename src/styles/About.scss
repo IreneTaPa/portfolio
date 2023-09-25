@@ -10,10 +10,10 @@
    color: $color-2;  
    
 }
-
 .author_img {
    height: 100px;
    padding: 10px;
+   border-radius: 50%; 
 }
 .div_letter {
    display: flex;
@@ -29,14 +29,27 @@
    align-items: center;
    margin: 20px auto;
    height: 30px;
-   width: 120px;
+   width: 125px;
+   padding: 5px 15px;
+   border-radius: 15px;
    background-color: $color-3;
    color: $color-4;
    text-decoration: none;
    font-family: $font-1;
-   font-size: 15px;
-
+   font-size: 14px;
+   box-shadow: 5px 5px 5px rgb(173, 162, 162);
+   &--icon {
+      padding-right: 5px;
+   }
 }
+.download_button:hover {
+   cursor: pointer;
+   width: 150px;
+   font-size: 16px; 
+   background-color: $color-4;
+   color: $color-3;
+}
+
 .technologies_list {
    padding: 10px;
    display: flex;

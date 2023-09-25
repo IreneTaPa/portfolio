@@ -3,6 +3,8 @@ import '../styles/Variables.scss';
 import img from '../images/photo.jpeg';
 import document from '../document/IreneTalaveroPalominoResume.pdf';
 import TechnologiesDetail from './TechnologiesDetail';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
   return (
     <div className="body_about">
@@ -22,6 +24,7 @@ const About = () => {
         </div>
       </div>
       <a className="download_button" href={document} download>
+        <FontAwesomeIcon icon={faDownload} className="download_button--icon" />
         <p>Download CV</p>
       </a>
       <h1>TECHNOLOGIES</h1>

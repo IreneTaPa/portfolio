@@ -27,7 +27,6 @@ const TechnologiesDetail = () => {
     { id: 11, src: gitLogo },
     { id: 12, src: githubLogo },
   ];
-  console.log(imagesData);
 
   return (
     <>

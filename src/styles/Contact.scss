@@ -1,10 +1,10 @@
 @import './Variables.scss';
 
-.body_cv {
+.contact_body {
    background-color: $color-1; 
     height: 75vh;
 }
-.cv_title {
+.contact_title {
     text-align: center;
     padding-top: 20px;
     font-family: $font-1;
@@ -12,8 +12,65 @@
     
 }
 
-.contact {
+.contact_rrss {
     display: flex;
     flex-direction: column;
     align-items: center;
+      
 }
+
+.contact_email {
+  padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 14px; 
+    color:#127CD6; 
+  &--link {
+      text-decoration: none;
+      color:$color-2; 
+      font-family: $font-1;
+    } 
+}
+.contact_email--link:hover {
+    color: #127CD6;
+    font-size: 15px;
+}
+
+.contact_linkedin {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 14px;
+  color:#0A66C2;
+  &--link {
+      text-decoration: none;
+      color: $color-2;
+      font-family: $font-1;
+    }
+}
+.contact_linkedin--link:hover {
+  color: #0A66C2;
+  font-size: 15px;
+}
+
+.contact_github {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 14px;
+  color: $color-2;
+
+  &--link {
+    text-decoration: none;
+    color: $color-2;
+    font-family: $font-1;
+  }
+}
+.contact_github--link:hover {
+  font-size: 15px;
+}
+
+
