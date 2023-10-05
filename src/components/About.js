@@ -8,7 +8,6 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
   return (
     <div className="body_about">
-      <h1 className="about_title">ABOUT</h1>
       <div className="div_letter">
         <img src={img} alt="Author" className="author_img" />
         <div className="letter">
@@ -27,7 +26,7 @@ const About = () => {
         <FontAwesomeIcon icon={faDownload} className="download_button--icon" />
         <p>Download CV</p>
       </a>
-      <h1>TECHNOLOGIES</h1>
+      <h1 className="technologies_title">TECHNOLOGIES</h1>
       <ul className="technologies_list">{<TechnologiesDetail />}</ul>
     </div>
   );

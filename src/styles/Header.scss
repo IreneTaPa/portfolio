@@ -4,7 +4,7 @@
     height: 20vh; 
    
 }
-.hero_image {
+.header_image {
     background-image: url(../images/hero.png);
     height: 20vh;
     width: 320px;
@@ -12,6 +12,7 @@
     position: absolute; 
     z-index: -1; 
 }
+
 .header_div {
     width: 320px;
     position: relative; 
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .list {
     display: flex;
     padding-top: 5px;
@@ -55,5 +57,15 @@
   padding-bottom: 5px;
 }
 
+@media (min-width:321px) and (max-width: 768px) {
+    .header_image {
+            width: 768px;
+        }
+    .header_div {
+        width: 730px; 
+        align-content: flex-end;
+    }
+
+}
 
 

@@ -1,0 +1,32 @@
+@import './Variables.scss'; 
+.body_porfolio {
+    background-color:$color-1; 
+    
+}
+
+.portfolio_title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: $font-1;
+    color: $color-2;
+}
+.projects_list {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.project_image {
+    width: 150px; 
+    height: 250px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+
+.project_image:hover {
+    cursor: pointer; 
+    -webkit-filter:none;
+    filter: none;
+}
