@@ -2,7 +2,7 @@
 
 .contact_body {
    background-color: $color-1; 
-    height: 75vh;
+   padding-top: 10px;
 }
 .contact_title {
     text-align: center;
@@ -73,4 +73,13 @@
   font-size: 15px;
 }
 
-
+@media (min-width:321px) and (max-width: 768px) {
+.contact_body {
+  width: 768px;
+  padding-bottom: 20px;
+  height: 195vh;
+}
+.contact_rrss {
+  padding-top: 30px;
+}
+}

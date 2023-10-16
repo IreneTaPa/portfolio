@@ -55,6 +55,25 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-around;
+}
 
+@media (min-width:321px) and (max-width: 768px) {
+   .body_about {
+      width: 768px;
+      height: 100vh;
+      padding-top: 50px;
+   }
+
+   .download_button {
+      margin-top: 35px;
+   }
+   .technologies_title {
+      padding-top: 45px;
+   }
+   .technologies_list {
+      width: 500px;
+      margin: 0 auto;
+      padding-top: 40px;
+   }
 
 }

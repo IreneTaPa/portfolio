@@ -20,3 +20,10 @@ font-weight: bold;
     font-family: $font-1;
     font-size: 12px;
 }
+
+@media (min-width:321px) and (max-width: 768px) {
+    .footer {
+   width: 768px;
+    }
+}
+

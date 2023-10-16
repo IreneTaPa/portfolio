@@ -1,12 +1,12 @@
 @import './Variables.scss'; 
-.body_porfolio {
-    background-color:$color-1; 
-    
+.body_projects {
+    background-color:$color-1;     
 }
 
-.portfolio_title {
+.projects_title {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
+
     font-family: $font-1;
     color: $color-2;
 }
@@ -22,6 +22,7 @@
     height: 250px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    padding-bottom: 20px;
     
 }
 
@@ -29,4 +30,11 @@
     cursor: pointer; 
     -webkit-filter:none;
     filter: none;
+}
+
+@media (min-width:321px) and (max-width: 768px) {
+.body_projects {
+    width: 768px;
+    height: 90vh;
+}
 }

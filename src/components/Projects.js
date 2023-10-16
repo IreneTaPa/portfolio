@@ -33,8 +33,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="body_porfolio">
-      <h1 className="portfolio_title">PROJECTS</h1>
+    <div className="body_projects">
+      <h1 className="projects_title">PROJECTS</h1>
 
       <ul className="projects_list">
         {projects.map((project) => (
